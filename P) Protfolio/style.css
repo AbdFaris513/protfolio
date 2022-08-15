@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0px;
+}
+.main{
+    color: white;
+    background-image: url(image/pexels-johannes-plenio-2816056.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.name{
+    font-family: 'opensans-bold', sans-serif;
+}
+.main p{
+    /* border: 1px solid; */
+    color: lightgray;
+    margin: 0% 10%;
+    font: 18px/1.9em 'librebaskerville-regular', serif;
+}
+.main p span{
+    color: white;
+    font-size: 1.2em;
+}
+.about{
+    margin-top: -20px;
+    padding: 0px;
+    background-color: black;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    color: lightgray;
+    padding: 4em;
+}
+.aboutf{
+    display: flex;
+    position: relative;
+}
+img{
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    flex: 1;
+    padding-top: 20px;
+
+    /* position: fixed; */
+}
+.innera{
+    flex: 3;
+    margin-left: 2em ;
+}
+.img{
+    /* border: 3px solid blue; */
+    width: 110px;
+    
+}
+.c{
+    display: flex;
+}
+.s{
+    width: 110px;
+    margin-top: 25px;
+}
+.allc{
+    flex: 3;
+    margin-left: 2em;
+}
+.about h2{
+    color: rgb(255, 166, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.education{
+    display: grid;
+    grid-template-columns: 145px 1fr;
+    /* grid-template-columns: repeat(auto-fit,minmax(400px,1fr)); */
+}
+.education .etitle1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 1px solid ; */
+}
+.education .etitle1 h2{
+    border-bottom: 3px solid orange;
+    margin-left: 20px;
+}
+.etitle2{
+    padding-left: 5em;
+    padding-right: 3em ;
+}
+.etitle2 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: orange;
+}
+.etitle2 h3{
+    color: black;
+    font-style: italic;
+    font-weight: lighter;
+}
+.etitle2 p{
+    color: black;
+    /* font-weight: lighter; */
+}
+.school{
+    display: flex;
+}
+.school div:nth-child(1){
+    width: 200px;
+    /* border: 1px solid; */
+}
+.school .stitle2{
+    flex: 5;
+    padding-left: 1em;
+    color: orange;
+}
+.stitle2 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.stitle2 h3{
+    font-style: italic;
+    color: black;
+    font-weight: lighter;
+}
+.stitle2 p{
+    /* font-style: italic; */
+    color: black;
+    padding-right: 3em;
+    /* font-weight: lighter; */
+}
